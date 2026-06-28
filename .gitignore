@@ -1,0 +1,43 @@
+# ---- Secrets ----
+.env
+.env.local
+*.key
+
+# ---- Per-user private data (CVs, embeddings, SAVED LOGIN COOKIES, tailored docs) ----
+data/
+**/browser_profile/
+**/sessions/
+
+# ---- Legacy single-user personal data ----
+cv/my_cv.pdf
+cv/cv_parsed.json
+cv/cv_structured.json
+cv/cv_embedding.npy
+cv/tailored/
+*.npy
+
+# ---- Database (contains scraped jobs + application history) ----
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ---- Stray brace-expansion artifact dir ----
+{config,*

@@ -1,0 +1,28 @@
+{
+  "job_titles": [
+    "Data Scientist", "ML Engineer", "Data Analyst",
+    "Software Engineer", "Backend Engineer", "Full Stack Engineer",
+    "Cyber Security Analyst", "Security Engineer",
+    "Network Engineer", "DevOps Engineer", "Cloud Engineer",
+    "Business Analyst", "Product Manager",
+    "Financial Analyst", "FinTech Analyst",
+    "Marketing Analyst", "Growth Analyst"
+  ],
+  "seniority_levels": ["intern", "graduate", "entry", "junior", "mid"],
+  "work_types": ["remote", "hybrid", "onsite"],
+  "locations": ["remote", "Ghana", "UK", "USA", "Canada", "Germany", "Netherlands", "Australia"],
+  "sponsorship_required": true,
+  "sponsorship_keywords": [
+    "visa sponsorship", "we sponsor", "tier 2", "tier2",
+    "sponsorship available", "relocation assistance",
+    "open to international", "work authorization",
+    "we will sponsor", "visa support", "global candidates welcome"
+  ],
+  "min_match_score": 0.55,
+  "max_applications_per_run": 10,
+  "salary": {
+    "min": 0,
+    "currency": "any"
+  },
+  "exclude_keywords": ["10+ years", "15+ years", "senior only", "director level"]
+}

@@ -1,0 +1,11 @@
+{
+  "adzuna":        { "enabled": false, "type": "api",     "requires_key": true  },
+  "remotive":      { "enabled": true,  "type": "api",     "requires_key": false },
+  "arbeitnow":     { "enabled": true,  "type": "api",     "requires_key": false },
+  "himalayas":     { "enabled": true,  "type": "api",     "requires_key": false },
+
+  "reed":          { "enabled": false, "type": "api",     "requires_key": true  },
+  "jobberman":     { "enabled": false, "type": "scraper", "requires_key": false },
+  "weworkremotely":{ "enabled": false, "type": "scraper", "requires_key": false },
+  "wellfound":     { "enabled": false, "type": "scraper", "requires_key": false }
+}

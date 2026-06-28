@@ -1,0 +1,57 @@
+{
+  "name": "Oki Oluwanimosadi Victor",
+  "contact": {
+    "email": "your@email.com",
+    "phone": "+233000000000",
+    "location": "Lagos, Nigeria",
+    "linkedin": "linkedin.com/in/yourprofile",
+    "github": "github.com/yourusername"
+  },
+  "summary": "Computer Science graduate from Lancaster University specialising in data science and artificial intelligence. Builds end-to-end systems from data pipelines and machine learning models to deployed applications.",
+  "skills": [
+    "Python", "PyTorch", "Sentence-BERT", "spaCy", "NLP",
+    "SQL", "FastAPI", "Streamlit", "Playwright", "Git",
+    "GitHub Actions", "Docker", "REST APIs", "Pandas", "NumPy"
+  ],
+  "experience": [
+    {
+      "title": "Data Analytics Intern",
+      "company": "Bluechip Technologies",
+      "dates": "2023 - 2023",
+      "bullets": [
+        "Worked on telecom data for 9mobile's support team using DBeaver and PrestoDB",
+        "Wrote SQL queries to extract and analyse customer support metrics",
+        "Collaborated with the support team to identify trends in customer complaints"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Mood2Market",
+      "description": "Bitcoin price prediction system combining deep learning and sentiment analysis",
+      "bullets": [
+        "Built a Bitcoin price prediction system combining PyTorch LSTM, TCN, and ARIMA models",
+        "Implemented FinBERT sentiment analysis on GDELT news and Reddit data",
+        "Deployed live on Streamlit Cloud with a Groq LLM-powered AI insights engine",
+        "Integrated live CoinGecko BTC price feed for real-time predictions"
+      ]
+    },
+    {
+      "name": "HiredAI",
+      "description": "Autonomous job application agent",
+      "bullets": [
+        "Built an AI agent that scrapes job platforms and scores listings against a CV using Sentence-BERT",
+        "Implemented LLM-powered cover letter generation using Llama 3.3 70B via Groq",
+        "Automated form filling and application submission using Playwright",
+        "Deployed on GitHub Actions as a scheduled cron job at zero infrastructure cost"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "BSc Computer Science",
+      "institution": "Lancaster University",
+      "dates": "2022 - 2026"
+    }
+  ]
+}
